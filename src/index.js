@@ -1,5 +1,6 @@
 
 var m = require("mithril");
 
-m.render(document.body, "hello everyone!");
+var root = document.body;
 
+m.render(root, m("h1", { class: "title" }, "Mithril Sample"));
